@@ -1,0 +1,72 @@
+.booking-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #f4f6f9;
+}
+
+.booking-container {
+  max-width: 550px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.booking-container h1 {
+  text-align: center;
+  color: #222;
+}
+
+.booking-subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.selected-service {
+  background: #eef4ff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.selected-service h3 {
+  margin-top: 0;
+  color: #2457a7;
+}
+
+.booking-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.booking-container label {
+  font-weight: 600;
+  color: #333;
+}
+
+.booking-container input,
+.booking-container select,
+.booking-container textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.booking-container button {
+  margin-top: 15px;
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  background: #2457a7;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.booking-container button:hover {
+  background: #183f80;
+}
